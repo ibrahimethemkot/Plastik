@@ -1,0 +1,143 @@
+/***** RESET *****/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var, b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	/*font-size: 100%;
+	vertical-align: baseline;*/
+	
+}
+html, body {height:100%;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;}
+textarea {overflow:auto;}
+
+/***** RESET *****/
+
+/*  Bütün div'leri içerisine alan div. */
+.anadiv{
+	width: 1250px;
+	height: auto;
+	margin: 10px auto;
+}
+
+
+/* Menü alanı. */
+.menu{
+	width: 1250px;
+	height: 50px;
+	border-radius: 40px;
+}
+
+
+/* Menünün üzerine gelince ilgili alanın arka plan renginin değişmesi. */
+.menu ul li a:hover{
+	background-color: #5da1bd;
+}
+
+
+/* Banner tasarımı. */
+.banner{
+	width: 1250px;
+	height: 200px;
+	background: url(images/banner.png) no-repeat;
+	border-radius: 10px;
+	margin: 2px 0px 2px 0px;
+	border:1px solid rgb(42, 13, 90)
+}
+
+
+/* Sayfanın merkezindeki alan. */
+.merkezicerik{
+	width: 1230px;
+	height: 580px;
+	float: left;
+	background-color: #87CEEB;
+	border-radius: 10px;
+	padding: 10px 10px 10px 10px;
+	border:1px solid rgb(42, 13, 90);
+}
+
+
+/* Footer alanının sol tarafı */
+.footer_left{
+	width: 624.5px;
+	height: 60px;
+	float: left;
+	border-top: 1px solid rgb(42, 13, 90);
+	background-color: #87CEEB;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+
+/* Footer alanının sağ tarafı */
+.footer_right{
+	width: 624.5px;
+	height: 60px;
+	float: left;
+	border-top: 1px solid rgb(42, 13, 90);
+	background-color: #87CEEB;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+
+/* Menü içerisindeki sayfaların listesi. */
+.menu ul li{
+	float: left;
+}
+
+
+/* Menü  */
+.menu ul li a{
+	display: block;
+	width: 312.5px;
+	height: 35px;
+	background-color: #87CEEB;
+	text-align: center;
+	padding: 15px 0px 0px 0px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-size: cover;
+	position: relative;
+	border-radius: 10px;
+	color: rgb(42, 13, 90);
+}
+
+
+/* En büyük başlık olarak kullanılacak class. */
+.baslik1{
+	font: bold 15px arial;
+	color: rgb(112, 110, 110);
+}
+
+
+/* Orta büyüklükte başlık olarak kullanılacak ikinci büyük class. */
+.baslik2{
+	font: bold 13px arial;
+	color: rgb(112, 110, 110);
+
+}
+
+
+/* İçerikte kullanılacak olan yazının classı. */
+.icerikyazi{
+	font:bold 12px arial;
+	color: grey;
+}
+
+
+/* Footer kısmında kullanılacak olan yazının classı. */
+.footer_yazi{
+	float: left;
+	text-decoration: none;
+	list-style: none;
+	margin: 5px 5px 5px 5px;
+	color: rgb(85, 80, 80);
+	font: 13px bold arial;
+}
