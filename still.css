@@ -26,6 +26,12 @@ textarea {overflow:auto;}
 	margin: 10px auto;
 }
 
+/* Body ayarları ve arka plan yerleştirilmesi. */
+body{background:url(images/background.png);
+    background-size:100%;
+    background-position: center;
+    background-size: cover;
+}
 
 /* Menü alanı. */
 .menu{
