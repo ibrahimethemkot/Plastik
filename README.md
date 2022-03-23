@@ -17,6 +17,6 @@
 
 <img src="https://github.com/ibrahimethemkot/Plastik/blob/main/Sayfa_3.png">
 
-### Plastik Türleri
+### Plastik Türleri;
 
 <img src="https://github.com/ibrahimethemkot/Plastik/blob/main/Sayfa_4.png">
